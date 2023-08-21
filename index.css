@@ -1,0 +1,31 @@
+.table th,
+.table td {
+    border-top: none;
+}
+
+.text-stred {
+    text-align: center;
+}
+
+.nav-item {
+    margin-left: 40px; /* Přidá mezeru mezi "Evidence pojištění" a "Pojištěnci" */
+}
+
+label {
+        color: white;
+    }
+
+.zakulaceni-tabulky {
+    border-collapse: separate;
+     border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.vetsi-radkovani {
+    line-height: 2.5;
+}
+
+.gradient-pozadi {
+    background: linear-gradient(to bottom, #f1f1f1, #cfcfcf);
+}
