@@ -61,7 +61,7 @@ class Evidence {
             // Vložení dat záznamu do tabulky
             seznam.insertAdjacentHTML("beforeend", `<td class="text-stred">${zaznam.jmeno} ${zaznam.prijmeni}</td><td class="text-stred">${zaznam.vek}</td><td class="text-stred">${zaznam.telefon}</td>`);
             
-            const smazBtnTd = document.createElement("td"); // Vytvoření TD pro tlačítko
+            const smazBtnTd = document.createElement("td"); // Vytvoření TD
             seznam.appendChild(smazBtnTd);
 
             const smazBtn = document.createElement("button"); // Vytvoření tlačítka pro smazání
@@ -86,6 +86,6 @@ class Evidence {
 
     // Metoda pro uložení seznamu záznamů do lokálního úložiště
     ulozZaznam() {
-        localStorage.setItem("zaznamy", JSON.stringify(this.zaznamy)); // Převedení na řetězec a uložení do úložiště
+        localStorage.setItem("zaznamy", JSON.stringify(this.zaznamy)); // Převedení na řetězec a uložení
     }
 }
