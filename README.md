@@ -1,4 +1,4 @@
-# Evidence Pojištění
+ # Evidence Pojištění
 
 Tento projekt je webová aplikace pro evidenci pojištěnců. Umožňuje přidávat a spravovat informace o pojištěncích, zobrazovat seznam aktuálních pojištěnců a poskytuje přehledné uživatelské rozhraní.
 
@@ -21,7 +21,7 @@ Tato webová aplikace slouží k evidenci pojištěnců. Hlavní funkce zahrnuj�
 
 ## Instalace
 
-Pro instalaci projektu stačí stáhnout nebo naklonovat tento repozitář a otevřít soubor `index.html` v webovém prohlížeči.
+Pro instalaci projektu stačí stáhnout nebo naklonovat tento repozitář a otevřít soubor `index.html` ve webovém prohlížeči.
 
 ## Použití
 
